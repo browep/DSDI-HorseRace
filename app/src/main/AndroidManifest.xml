@@ -3,6 +3,7 @@
     package="com.github.browep.dsdihorserace">
 
     <application
+        android:name=".DSDIApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".VanillaActivity"
+            android:label="@string/title_activity_inner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InjectedActivity"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DSDIHorseRace</string>
+    <string name="title_activity_inner">InnerActivity</string>
 </resources>
